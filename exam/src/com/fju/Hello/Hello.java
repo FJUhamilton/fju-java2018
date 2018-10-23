@@ -1,12 +1,18 @@
 package com.fju.Hello;
-
+import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Your name:");
+		String name= scanner.nextLine();
+		System.out.println(name);
+		
+		
+		
 		System.out.println("Hello.");
 		System.out.println("My Name is Matt.");
-        
-		Student mg = new Student();
+        Student mg = new Student();
 		mg.english =70;
 		mg.math=90;
 		mg.avg=(mg.english+mg.math)/2;
