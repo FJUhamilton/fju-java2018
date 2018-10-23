@@ -5,7 +5,8 @@ public class SignUp {
 	public static void main(String[] args) {
 	System.out.println("Are you 18?(y/N)");
 	Scanner scanner= new Scanner(System.in);
-	String line ="y";
+	String line = scanner.nextLine();
+	System.out.println("")
 	boolean adult = line.equals();
 	System.out.println(adult);
 	
