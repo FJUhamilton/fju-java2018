@@ -10,3 +10,4 @@ public class Student {
 		System.out.println(name + "\t" + english + "\t" + math + "\t" + avg);
 	}
 }
+/*«Øºc¤l*/
