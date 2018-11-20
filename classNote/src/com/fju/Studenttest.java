@@ -2,7 +2,7 @@ package com.fju;
 
 public class Studenttest {
 
-		/*String name ;
+		String name ;
 		int english;
 		int math;
 		
@@ -26,8 +26,26 @@ public class Studenttest {
 			return ((english+math)/2);
 		}
 	}
-*/
 	
 	
-}
-	
+
+
+{char grading ='F';
+	switch(gatAverage){
+       case 10:
+       case 9:
+    	   gathering ='A' ;
+    	   break ;
+       case 8:
+    	   gathering ='B' ;
+    	   break ;
+       case 7:
+    	   gathering ='C' ;
+    	   break ;
+       case 6:
+    	   gathering ='D' ;
+    	   break ;
+    	   defeat:
+    		   grading='F';
+	}
+}}
